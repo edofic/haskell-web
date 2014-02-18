@@ -1,0 +1,5 @@
+to initialise
+
+    cabal sandbox init
+    cabal install --enable-tests . yesod-platform yesod-bin --reorder-goals --force-reinstalls -j
+

@@ -1,0 +1,4 @@
+to initialise
+
+    cabal sandbox init
+    cabal install -j
