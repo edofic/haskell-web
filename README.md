@@ -13,6 +13,9 @@ The plan is to to implement a bunch of things using different tools and compare 
 ## Selected features
 ### Hello routes
 An exercise in HTTP routing. A handle different routes and methods. 
+* `GET  /hello` should return *Hello world*
+* `GET  /hello/:name` should return *Hello name*
+* `POST /hello` should return *Hello postman"
 
 ### REST JSON 
 CRUD support for a REST source held in memory. Return JSON bodies and parse JSON posts. Bonus points for (free) content negotiation.
@@ -33,8 +36,8 @@ Calling other HTTP services as part of the request processing.
 
 /            | Happstack | Snap  | Scotty | Yesod
 ---:         | :---:     | :---: | :---:  | :---:
-hello routes |           |       |        | 
-rest json    |           |       |        |  
+hello routes | yes       |       |        | 
+rest json    |           |       |        | 
 db rest      |           |       |        | 
 templates    |           |       |        | 
 crud         |           |       |        | 
