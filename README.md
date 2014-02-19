@@ -20,6 +20,10 @@ An exercise in HTTP routing. A handle different routes and methods.
 ### REST JSON 
 CRUD support for a REST source held in memory. Return JSON bodies and parse JSON posts. Bonus points for (free) content negotiation.
 
+There should be two datasources
+* person: {id: string, name: string, age: int}
+* book: {id: string, name: string, authorid: string}
+
 ### Database REST
 Same as REST JSON but backed by a database. 
 
@@ -37,7 +41,7 @@ Calling other HTTP services as part of the request processing.
 /            | Happstack | Snap  | Scotty | Yesod
 ---:         | :---:     | :---: | :---:  | :---:
 hello routes | yes       | yes   | yes    | 
-rest json    |           |       |        | 
+rest json    |           |       | yes    | 
 db rest      |           |       |        | 
 templates    |           |       |        | 
 crud         |           |       |        | 
