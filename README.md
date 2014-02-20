@@ -4,6 +4,8 @@ I want to make a web application in Haskell but there are many frameworks and li
 
 The plan is to to implement a bunch of things using different tools and compare the feel.
 
+If I screw up somewhere or use something in a non idiomatic way please let me know.
+
 ## Selected libraries / frameworks
 * Happstack
 * Snap
