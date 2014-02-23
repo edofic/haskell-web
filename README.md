@@ -43,7 +43,7 @@ Calling other HTTP services as part of the request processing.
 /            | Happstack | Snap  | Scotty | Yesod
 ---:         | :---:     | :---: | :---:  | :---:
 hello routes | yes       | yes   | yes    | yes
-rest json    |           |       | yes    | 
+rest json    |           |       | yes    | yes
 db rest      |           |       |        | 
 templates    |           |       |        | 
 crud         |           |       |        | 
