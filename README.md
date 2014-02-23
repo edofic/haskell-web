@@ -32,13 +32,14 @@ The point here isn't to just implement a REST datasource as this is quite easy a
 Same as REST JSON but backed by a database. 
 
 ### Templates
-Integrated HTML templates
+Integrated HTML templates. Render some views. Compose templates. Can you use designer provided HTML?
 
 ### CRUD
-Views for manipulating a data source.
+Views for manipulating a data source. As with REST, there should be two resources and one logic that is reused.
 
 ### Web services
 Calling other HTTP services as part of the request processing.
+This is now moot as I've leared that all four let you do regular IO and you use whatever HTTP client your heart desires. 
 
 ## Matrix of implemented stuff:
 
@@ -49,4 +50,3 @@ rest json    |           |       | yes    | yes
 db rest      |           |       |        | 
 templates    |           |       |        | 
 crud         |           |       |        | 
-web services |           |       |        | 
