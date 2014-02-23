@@ -20,11 +20,13 @@ An exercise in HTTP routing. A handle different routes and methods.
 * `POST /hello` should return *Hello postman"
 
 ### REST JSON 
-CRUD support for a REST source held in memory. Return JSON bodies and parse JSON posts. Bonus points for (free) content negotiation.
+CRUD support for a REST source held in memory. Return JSON bodies and parse JSON posts. 
 
 There should be two datasources
 * person: {id: string, name: string, age: int}
 * book: {id: string, name: string, authorid: string}
+
+The point here isn't to just implement a REST datasource as this is quite easy and similar in all 4 but to implement a reusable REST datasource and apply it to two different models. This way we see how hard it is to build abstractions too.
 
 ### Database REST
 Same as REST JSON but backed by a database. 
