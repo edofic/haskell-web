@@ -6,6 +6,8 @@ The plan is to to implement a bunch of things using different tools and compare 
 
 If I screw up somewhere or use something in a non idiomatic way please let me know.
 
+*Note* I wrote a [blogpost](http://edofic.com/posts/2014-02-23-haskell-web.html) about this.
+
 ## Selected libraries / frameworks
 * Happstack
 * Snap
